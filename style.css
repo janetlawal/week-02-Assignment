@@ -1,7 +1,13 @@
 .content {
     border: 2px;
     color: rgb(99, 20, 46);
+    height: 500px;
+    background-position: center;
+    background-image: cover;
+    background-size: contain;
 }
+    
+    
 .one {
     background-color: pink;
 
@@ -15,10 +21,30 @@
 
 }
 header {
-    border: 2px; color: black;
+    border: 4px; color: black;
     
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+
+    gap: 200px;
+    position: fixed;
+    width: 500px;
+
+}
+.product {
+    background-image: url("./images/about us page.png");
+    
+}
+.contactus {
+    background-image: url("./images/product page.png");
+    
+
+}
+.aboutus {
+    background-image: url("./images/contact us.png"); 
+    
+}
+.footer {
+    color: brown;
+    
 }
