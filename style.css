@@ -1,0 +1,24 @@
+.content {
+    border: 2px;
+    color: rgb(99, 20, 46);
+}
+.one {
+    background-color: pink;
+
+}
+.two {
+    background-color: plum;
+
+}
+.three {
+    background-color: rgb(253, 109, 210);
+
+}
+header {
+    border: 2px; color: black;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
